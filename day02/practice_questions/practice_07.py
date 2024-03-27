@@ -1,6 +1,6 @@
-# . Calculate the area and circumference of a circle given its
+# Calculate the area and circumference of a circle given its radius.
 #
-# radius.
+
 
 def main():
     pass
