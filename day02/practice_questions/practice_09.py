@@ -1,6 +1,6 @@
-# . Create a function to count the number of vowels in a
+# Create a function to count the number of vowels in a given string.
 #
-# given string.
+
 
 def main():
     pass
