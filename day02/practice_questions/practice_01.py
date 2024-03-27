@@ -9,9 +9,9 @@ def sum_and_average_from_a_list(input_list: list):
 
 def main() -> None:
     print(sum_and_average_from_a_list([]))
-    print(sum_and_average_from_a_list([0,0,0,0,0,-1]))
-    print(sum_and_average_from_a_list([-6,-0,-99,2]))
-    print(sum_and_average_from_a_list([2,4,5,6,0,-8]))
+    print(sum_and_average_from_a_list([0, 0, 0, 0, 0, -1]))
+    print(sum_and_average_from_a_list([-6, -0, -99, 2]))
+    print(sum_and_average_from_a_list([2, 4, 5, 6, 0, -8]))
 
 
 if __name__ == '__main__':
