@@ -26,6 +26,7 @@ names = [
     "Easton", "Oscar", "Julian"
     ]
 
+
 def main() -> None:
     only_names_with_a = []
     for name in names:
@@ -35,7 +36,5 @@ def main() -> None:
     print(only_names_with_a)
 
 
-
 if __name__ == '__main__':
     main()
-
