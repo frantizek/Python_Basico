@@ -1,6 +1,6 @@
 # Create a function to reverse a given string.
 
-def reverse_a_string(string_to_reverse: str):
+def reverse_a_string(string_to_reverse: str) -> str:
     reversed_string = ""
     if len(string_to_reverse) == 0:
         return reversed_string
