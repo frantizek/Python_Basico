@@ -12,7 +12,6 @@ def main() -> None:
             break
         except ValueError:
             print("This is not a number. Please enter a valid number")
-
     print(f"Hours:  {number_of_minutes//60}, Minutes: {number_of_minutes%60}")
 
 
