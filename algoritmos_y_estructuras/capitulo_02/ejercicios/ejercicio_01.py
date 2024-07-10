@@ -11,7 +11,7 @@ def suma_de_enteros(numero: int):
 
 
 def main():
-    print(suma_de_enteros(9))
+    print(suma_de_enteros(99))
 
 
 if __name__ == '__main__':

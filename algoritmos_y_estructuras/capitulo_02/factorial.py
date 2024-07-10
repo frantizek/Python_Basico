@@ -4,3 +4,11 @@ def factorial(numero: int) -> float:
         return 1
     else:
         return numero * factorial(numero-1)
+    
+
+def main():
+    print(factorial(5))
+
+
+if __name__ == '__main__':
+    main()

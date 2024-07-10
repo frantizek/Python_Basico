@@ -7,9 +7,17 @@ def fibonacciI(n: int) -> int:
         fib = n
     else:
         i = 2
-        while(i < n):
+        while(i <= n):
             fib = n0 + n1
             n0 = n1
             n1 = fib
             i += 1
     return fib
+
+
+def main():
+    print(fibonacciI(10))
+
+
+if __name__ == '__main__':
+    main()
