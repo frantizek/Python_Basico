@@ -32,4 +32,3 @@ def mergesort(lista):
             return izquierda
         resultado = merge(izquierda, derecha)
         return resultado
-    
