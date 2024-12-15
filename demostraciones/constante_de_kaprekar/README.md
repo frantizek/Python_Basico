@@ -1,3 +1,5 @@
+# Kaprekar constant
+
 Ah, the Kaprekar constant! It’s a number that’s quite fascinating in the realm of mathematics, specifically number theory. For a four-digit number, Kaprekar's constant is 6174. Here’s the intriguing part: Take any four-digit number, where the digits are not all the same, and follow these steps:
 
 Arrange the digits in descending and then in ascending order to get two four-digit numbers, adding leading zeros if necessary.
