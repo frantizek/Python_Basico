@@ -1,0 +1,7 @@
+[project]
+name = "any-square-root"
+version = "0.1.0"
+description = "Use the ancient babylonian method to calculate the square root of any number."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

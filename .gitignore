@@ -1,6 +1,12 @@
-.idea/*
-.idea/inspectionProfiles/*
-.idea/.gitignore
-codecademy/.idea/*
-codecademy/.idea/inspectionProfiles/*
-demostraciones/constante_de_kaprekar/__pycache__/*
+# Python  
+__pycache__/  
+*.py[cod]  
+*$py.class  
+
+# VirtualEnv  
+venv/  
+.env/  
+
+# IDE  
+.vscode/  
+.idea/  
