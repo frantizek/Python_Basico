@@ -1,10 +1,10 @@
 def fibonacci(numero: int) -> int:
-    """Cálculo el valor de un nunero en la sucesión de Fibonacci."""
+    """Cálculo el valor de un numero en la sucesión de Fibonacci."""
     fib1 = 0
     fib2 = 1
-    if(numero == 0):
+    if numero == 0:
         return fib1
-    elif(numero == 1):
+    elif numero == 1:
         return fib2
     else:
         resultado = 0
