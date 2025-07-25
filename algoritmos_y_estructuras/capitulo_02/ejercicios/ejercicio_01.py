@@ -1,3 +1,4 @@
+import sys
 # Implementar una función que calcule la suma de todos
 # los números enteros comprendidos entre cero 
 # y un número entero positivo dado.
@@ -19,5 +20,8 @@ def main():
     print(otra_suma_de_enteros(99))
 
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit("\nInterrupted by user.")

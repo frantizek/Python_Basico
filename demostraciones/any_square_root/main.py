@@ -1,4 +1,5 @@
 import math
+import sys
 
 def get_integer_input(prompt):
     """
@@ -42,9 +43,9 @@ def approximate_square_root(n):
     return integer_part + fractional_part
 
 
-if __name__ == '__main__':
+def main():
     # Prompt the user to enter a positive integer
-    user_input = get_positive_integer_input("Please enter a positive integer greater than 0: ")
+    user_input = get_positive_integer_input("Please enter a positive integer greater than 0 : ")
     print(f"You entered: {user_input}")
 
     # Calculate the approximate square root using the custom algorithm
@@ -55,5 +56,8 @@ if __name__ == '__main__':
     exact_sqrt = math.sqrt(user_input)
     print(f"Exact square root (using math.sqrt) of {user_input} is: {exact_sqrt:.5f}")
 
-
-
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit("\nInterrupted by user.")
